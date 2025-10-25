@@ -79,6 +79,7 @@ export default function App() {
             <input 
             type="checkbox"
             checked={tasks.completed} 
+            className="checkBox"
             onChange={()=>Check(tasks.id)}
             />
             <li
